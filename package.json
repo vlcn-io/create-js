@@ -1,0 +1,19 @@
+{
+  "name": "@vlcn.io/create",
+  "type": "module",
+  "version": "0.0.1",
+  "files": [
+    "./index.js"
+  ],
+  "bin": {
+    "create-vlcn": "./index.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vlcn-io/create-js.git"
+  },
+  "dependencies": {
+    "degit": "^2.8.4"
+  }
+}
