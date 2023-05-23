@@ -14,6 +14,7 @@
     "url": "git@github.com:vlcn-io/create-js.git"
   },
   "dependencies": {
+    "chalk": "^5.2.0",
     "degit": "^2.8.4"
   }
 }
