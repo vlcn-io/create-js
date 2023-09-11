@@ -27,7 +27,7 @@ emitter.clone(process.argv[2]).then(() => {
   fs.writeFileSync(`${project}/package.json`, JSON.stringify(pkgjson, null, 2));
 
   const toml = fs.readFileSync(`${project}/fly.toml`, 'utf8');
-  fs.writeFileSync(`${project}/fly.toml`, toml.replace('vite-starter', project).replace('vite-litefs-starter', project));
+  fs.writeFileSync(`${project}/fly.toml`, toml.replace('vite-starter2', project).replace('vite-litefs-starter', project));
 
   console.log('');
 	console.log(`🎉 ${chalk.green.bold('Your project has been successfully created!')} 🎉`);

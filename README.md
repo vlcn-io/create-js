@@ -18,4 +18,4 @@ Generates the following scaffolding which:
 - Integrates with React
 
 
-Example: https://vite-starter.fly.dev/
+Example: https://vite-starter2.fly.dev/
